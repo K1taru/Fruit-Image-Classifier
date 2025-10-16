@@ -1,5 +1,0 @@
-git ignored the datasets.
-each fruit contains another folder for segregating variants
-Ex.
-Apple/: Apple 10/, Apple 11/, etc.
-
