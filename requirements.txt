@@ -1,0 +1,20 @@
+# Core Scientific Libraries
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+scikit-learn
+
+# Deep Learning Framework (TensorFlow / Keras)
+tensorflow>=2.12.0
+
+# Image Processing
+opencv-python
+Pillow
+
+# File & Serialization
+# pickle5
+
+# Optional but Useful for Experiments / Visualization
+tensorboard
