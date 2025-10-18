@@ -56,7 +56,7 @@ def CountDataset(dataset_path: str) -> dict:
     # ✅ Build dataset_info dictionary
     dataset_info = {}
     for fruit, count in class_counts.items():
-        ratio = max_class_count / count if count > 0 else 0
+        ratio = count / max_class_count if count > 0 else 0
         needed = max_class_count - count
         size_mb = folder_sizes[fruit] / (1024 ** 2)
         dataset_info[fruit] = {
